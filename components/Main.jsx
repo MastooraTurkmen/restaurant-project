@@ -1,4 +1,5 @@
 import React from "react"
+import Hotdog from "images/hotdogs.jpg"
 
 export default function Main() {
         return <main>
@@ -10,7 +11,7 @@ export default function Main() {
                     </p>
                     <div className="image-container">
                          <div className="image-wrapper">
-                             <img className="hot-dog" src="images/hotdogs.jpg"/>
+                             <img className="hot-dog" src={Hotdog}/>
                          </div>
                          <div className="image-wrapper">
                              <img src="images/sandwich.jpg"/>
