@@ -2,11 +2,12 @@
   "name": "project",
   "dependencies": {
     "react": "18.2.0",
+    "react-dom": "^18.2.0",
     "reactdom": "2.0.0"
   },
   "devDependencies": {
-    "vite": "latest",
-    "@vitejs/plugin-react": "*"
+    "@vitejs/plugin-react": "*",
+    "vite": "latest"
   },
   "scripts": {
     "start": "vite",
