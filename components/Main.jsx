@@ -1,7 +1,7 @@
 import React from "react"
-import Hotdog from "images/hotdogs.jpg"
-import Sandwich from "images/sandwich.jpg"
-import Wrapper from "images/hamburger.jpg"
+import Hotdog from "../images/hotdogs.jpg"
+import Sandwich from "../images/sandwich.jpg"
+import Wrapper from "../images/hamburger.jpg"
 
 export default function Main() {
         return <main>
