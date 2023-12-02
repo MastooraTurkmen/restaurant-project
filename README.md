@@ -29,7 +29,10 @@ $ cd restaurant-project
 
 ## Deployment 📦
 
-1. How to deploy our project to netlify site?
-   + I use [Netlify App](https://app.netlify.com/) for deploying my projects.
-   + Go to Netlify site and select Add a new site.
-   + 
++ How to deploy our project to netlify site?
+   1. I use [Netlify App](https://app.netlify.com/) for deploying my projects.
+   2. Go to Netlify site and select Add a new site.
+   3. From here select **_Deploy with Github_**
+      + ![Alt text](image.png)
+
+
