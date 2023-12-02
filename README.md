@@ -37,5 +37,6 @@ $ cd restaurant-project
    4. After selecting here you can see that the project **_Review configuration for restaurant-project_** and then select the _Deploy restaurant-project_ Button
        ![Alt text](image-1.png)
        ![Alt text](image-2.png)
+   5. Now your project is Live
 
 
