@@ -5,7 +5,7 @@
 #### Mobile 📱
 
 ![Alt text](./images/mobile-screenshot.png)
-![Alt text](./images/mobile-screenshot-1.png)
+![Alt text](./images/mobile-screenshot-1..png)
 
 
 
