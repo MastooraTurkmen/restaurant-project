@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+/* ----- TYPOGRAPHY ----- */
+
+h1 {
+    margin: 0;
+    font-size: 3.3em;
+    font-family: 'Fugaz One', cursive;
+    color: #B33E37;
+    text-shadow: 0 2px 1px black;
+    line-height: 1.2em;
+}
+
+.info-container, button, footer {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700 
+}
+
+.info-container {
+    line-height: 1.5em;
+}
+
+a {
+    color: #8AE1FC;
+    text-decoration: none;
+}
+
+
+/* ----- Buttons ----- */
+
+.button-container {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 460px;
+    height: 100%;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #D8F5FF;
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    padding: 0.5em 1.5em;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0.1em 0.1em;
+    font-weight: 700;
+}
+
+button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em; 
+    cursor: pointer;
+        
+}
+
+button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+    outline: none;
+}
+
+button:focus-visible {
+    outline: 1px solid #8AE1FC
+}
+  
+button:focus:not(:focus-visible) {
+    outline: none;
+}
+
+
+/* ----- Layout ----- */
+
+body {
+    margin: 0;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-position: 50% 70%;
+}
+
+header, footer {
+    margin: 0;
+    background: #343335;
+    height: 75px;
+    box-shadow: 0 3px 1px black;
+}
+
+header, footer, h1, h3 {
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #DDDDDD;
+}
+
+main {
+    padding: 100px 0 30px 0;;
+    margin: auto;
+    max-width: 460px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.logo-container {
+    background: #EFEFAA;
+}
+
+.info-container, .logo-container {
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px black;
+}
+
+.info-container {
+    background: #D8F5FF;
+}
+
+.info-container::selection {
+    background: #EFEF97;;
+}
+
+.image-container {
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+}
+
+.image-wrapper {
+    border-radius: 15px;
+    flex: 1 150px;
+    max-height: 250px;
+}
+
+img {
+    border-radius: 15px;
+    border: 5px solid #D8F5FF;
+    box-shadow: 0 5px 10px black;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
