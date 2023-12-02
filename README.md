@@ -1,5 +1,24 @@
 # Simple Food Restaurant Project 🍔 🌭
 
+
+
+#### Mobile 📱
+
+![Alt text](./images/mobile-screenshot.png)
+![Alt text](./images/mobile-screenshot-1.png)
+
+
+
+#### Desktop 💻
+
+![Alt text](./images/desktop-screenshot.png)
+![Alt text](./images/desktop-screenshot-1.png)
+
+
+------
+
+
+
 ## Before you Begin 🔨
 
 How to start your project in local machine
